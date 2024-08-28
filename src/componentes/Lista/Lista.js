@@ -5,15 +5,15 @@ const Lista = ({ objeto = [] }) => {
     const obterCaminhoImagem = (marca) => {
         switch (marca.toLowerCase()) {
             case 'hp':
-                return '/images/hp.png';
+                return '';
             case 'dell':
-                return '/images/dell.png';
+                return '/Images/dell.png';
             case 'positivo':
-                return '/images/positivo.png';
+                return '/Images/positivo.png';
             case 'asus':
-                return '/images/asus.png';
+                return '/Images/asus.png';
             case 'xing ling':
-                return '/images/xingling.png';
+                return '/Images/xingling.png';
             default:
                 return null;
         }
