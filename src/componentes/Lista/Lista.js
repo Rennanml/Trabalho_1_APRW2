@@ -5,7 +5,7 @@ const Lista = ({ objeto = [] }) => {
     const obterCaminhoImagem = (marca) => {
         switch (marca.toLowerCase()) {
             case 'hp':
-                return '/Images/hp.png';
+                return './Images/hp.png';
             case 'dell':
                 return './Images/dell.png';
             case 'positivo':
